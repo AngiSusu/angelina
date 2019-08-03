@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Josefin+Slab');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.css";
 
 body {
     font-family: 'Quicksand', sans-serif;
