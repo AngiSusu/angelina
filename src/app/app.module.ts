@@ -31,6 +31,7 @@ import { WelcomeComponent } from './common/welcome/welcome.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     MatExpansionModule,
     //DragDropModule,
     //LayoutModule,
