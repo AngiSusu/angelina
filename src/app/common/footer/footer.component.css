@@ -1,0 +1,30 @@
+@media(min-width: 1700px) {
+    display: block;
+    font-size: 16px;
+    padding: 20px 0 50px 0;
+    margin-top: 20px;
+    background-color: #333;
+    height: 1rem;
+}
+
+@media(max-width: 1699px) {
+    display: block;
+    font-size: 16px;
+    padding: 20px 0 50px 0;
+    margin-top: 20px;
+    height: 1rem;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: rgb(145, 149, 173);
+}
+
+p {
+    color: #ecf0ff;
+    text-align: center;
+}
