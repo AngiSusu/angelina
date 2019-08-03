@@ -8,9 +8,14 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    color: #a07b1d;
+    color: #6c5f4f;
     background-color: #fff6c5;
     margin-top: 2em;
+}
+
+p, li, ul {
+    font-family: 'Quicksand', sans-serif;
+    color: #6c5f4f;
 }
 
 .container {
@@ -20,6 +25,13 @@ body {
 
 h1, h2, h3 {
     font-family: 'Josefin Slab', serif;
+    color: #a08957;
+}
+
+hr {
+    width: 40rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 #navbar > ul {
@@ -47,7 +59,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #7f8c8d;
+    color: #8d877f;
 }
 
 
@@ -67,48 +79,27 @@ a {
     align-content: center;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-    background-color: #c7d3db;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-    background-color: #ccc;
+mat-expansion-panel {
+    margin-bottom: 5px !important;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.btn-content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+mat-expansion-panel-header {
+    font-family: 'Quicksand', sans-serif !important;
+    color: #8d877f;
+    background-color: rgb(255, 249, 234);
+    border-radius: 0 !important;
 }
 
-.collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 11px;
-    color: white;
-    float: right;
-    margin-left: 5px;
+mat-expansion-panel-header:hover {
+    background-color: rgb(255, 254, 250);
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+mat-expansion-panel-body > .content {
+    font-family: 'Quicksand', sans-serif !important;
+    color: #6c5f4f !important;
+    background-color: rgb(255, 249, 234) !important;
 }
 
-#others {
-    margin-botton: 200px;
-}
 
 .row {
     display: flex;
