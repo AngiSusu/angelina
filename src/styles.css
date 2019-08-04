@@ -62,6 +62,11 @@ a {
     color: #8d877f;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #ffdf27;
+}
+
 
 #intro {
     font-size: 4em;

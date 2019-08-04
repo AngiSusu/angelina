@@ -4,7 +4,7 @@
     <h1 id="intro">angelina | resume</h1>
     <!--span id=""allows text customsations without disturbing the rest of the text-->
     <img src="assets/coffee.png" width="20px" height="20px">
-    <a href="C:/Users/MS/Documents/~Resume/AngelinaSuwoto_resume_Fall2019.pdf" download="Angelina Suwoto Resume" text-align="bottom">
+    <a href="assets/AngelinaSuwoto_resume_Fall2019.pdf" download="Angelina Suwoto Resume" text-align="bottom">
     download my resume (pdf)
     </a>
     <br/><br/>
@@ -19,7 +19,7 @@
                 <p style="text-align:left;"><span style="font-weight: bold;">georgia institute of technology</span>, atlanta, ga
                 <span style="float:right;">aug 2017 - present</span></p>
                 <ul>
-                    <li>bachelor of science in computer science // gpa: 3.5</li>
+                    <li>bachelor of science in computer science // gpa: 3.6</li>
                     <li>graduation: may 2020</li>
                     <li>minor in psychology</li>
                 </ul>
@@ -39,14 +39,37 @@
 
         <ng-template matExpansionPanelContent>
                 <div class="content">
-                    <p><span style="font-weight: bold;">programming:</span>	java, python, c, javascript, sql, jquery, bootstrap, html, css, r, assembly</p>
+                    <p><span style="font-weight: bold;">programming:</span>	java, python, c, javascript, angular, react, sql, jquery, bootstrap, html/css, assembly</p>
                     <p><span style="font-weight: bold;">relevant courses:</span> data structures, databases, artificial intelligence, computer architecture</p>
-                    <p><span style="font-weight: bold;">softwares/ides:</span> android studio, firebase, intellij, pycharm, visual studio code, alice, scratch, jgrasp </p>
+                    <p><span style="font-weight: bold;">technologies:</span> android studio, firebase, mongodb, visual studio code  </p>
                     <p><span style="font-weight: bold;">graphic design:</span> adobe photoshop, corel painter, medibang paint pro</p>
                     <p><span style="font-weight: bold;">languages:</span> fluent in english, mandarin chinese</p>
                 </div>
         </ng-template>
     </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+          work experience
+      </mat-expansion-panel-header>
+
+      <ng-template matExpansionPanelContent>
+              <div class="content">
+                      <p style="text-align:left;"><span style="font-weight: bold;">citigroup, inc.</span>, summer analyst
+                      <span style="float:right;">jun 2019 – aug 2019</span></p>
+                      <ul>
+                          <li>built and demoed sde hub that offers a q&a forum, scrum team directory, and centralized resources for citi developers by implementing an angular frontend interface with mongodb backend data store, completed over 10-week internship</li>
+                          <ul>
+                            <li style="margin-left:1em">consolidated over 50 developer resources across 6 categories including onboarding, angular, ios, microservices, and ui components</li>
+                          </ul>
+                          <li>prototyped and delivered pitch for funding minty hippo, an automated cent-style savings feature for citi mobile app by using figma wireframing and android studio </li>
+                          <ul>
+                            <li style="margin-left:1em">proposal brings over $85 million into citi high yield savings accounts across 350,000 users</li>
+                          </ul>
+                      </ul>
+                      </div>
+      </ng-template>
+  </mat-expansion-panel>
 
 
     <mat-expansion-panel>
@@ -59,7 +82,7 @@
                 <p style="text-align:left;"><span style="font-weight: bold;">empoWOMENt</span>, pearlhacks 2019
                 <span style="float:right;">feb 2019</span></p>
                 <ul>
-                    <li>best use of google cloud platform, best use of splunk, best domain name</li>
+                    <li>awarded best use of google cloud platform, best use of splunk, best domain name</li>
                     <li>natural language processing messaging assistant that aims to help break the glass ceiling by detecting phrases that show a lack of confidence and suggesting more assertive ways for women to express ideas</li>
                     <li>implemented google cloud dialogflow machine learning/nlp for bot training, splunk for word frequency and sentiment analysis, html/css web interface and integration into facebook messenger group chat with python</li>
                 </ul>
@@ -74,22 +97,7 @@
         </ng-template>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
-            <mat-expansion-panel-header>
-                work experience
-            </mat-expansion-panel-header>
 
-            <ng-template matExpansionPanelContent>
-                    <div class="content">
-                            <p style="text-align:left;"><span style="font-weight: bold;">sabah kinder academy</span>, tutor
-                            <span style="float:right;">jun 2015 – jun 2016</span></p>
-                            <ul>
-                                <li>taught students at national award-winning art academy about visual arts and world cultures</li>
-                                <li>hosted volunteer urban art projects and festivals</li>
-                            </ul>
-                            </div>
-            </ng-template>
-        </mat-expansion-panel>
 
         <mat-expansion-panel>
                 <mat-expansion-panel-header>
@@ -105,11 +113,6 @@
                                     <li>mentors individual students one-on-one for personal web development projects</li>
                                 </ul>
 
-                                <p style="text-align:left;"><span style="font-weight: bold;">gitmad</span>, member
-                                <span style="float:right;">aug 2017 – present</span></p>
-                                <ul>
-                                    <li>android app development club, teaches android studio and xml</li>
-                                </ul>
 
                                 <p style="text-align:left;"><span style="font-weight: bold;">women of rewriting the code</span>, fellow
                                 <span style="float:right;">apr 2018 – present</span></p>
